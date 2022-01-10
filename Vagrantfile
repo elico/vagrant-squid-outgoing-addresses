@@ -44,7 +44,7 @@ vmgui = false
 ENV["VAGRANT_DEFAULT_PROVIDER"] = "virtualbox"
 
 Vagrant.configure("2") do |config|
-  config.vm.boot_timeout = 300
+  config.vm.boot_timeout = 1440
   # config.vm.box = "ubuntu/xenial64" # 18.04
   # config.vm.box = "ubuntu/focal64" # 20.04
   # config.vm.box = "ubuntu/bionic4" # 16.04
